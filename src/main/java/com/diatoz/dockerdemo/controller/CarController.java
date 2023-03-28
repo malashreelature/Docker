@@ -49,6 +49,6 @@ public class CarController {
     @DeleteMapping("/model{id}")
     public ResponseEntity<?> deleteModel(@RequestParam(value="id") Long id){
         carService.deleteById(id);
-        return new ResponseEntity<>("CarModel entity Deleted successfully.", HttpStatus.CREATED);
+        return new ResponseEntity<>("CarModel Id Deleted successfully.", HttpStatus.CREATED);
     }
 }
