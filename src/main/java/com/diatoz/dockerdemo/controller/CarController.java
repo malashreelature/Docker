@@ -1,8 +1,6 @@
 package com.diatoz.dockerdemo.controller;
 import com.diatoz.dockerdemo.model.CarModel;
-import com.diatoz.dockerdemo.repository.CarRepository;
 import com.diatoz.dockerdemo.service.CarService;
-import lombok.Value;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
